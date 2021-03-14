@@ -70,6 +70,7 @@ address {
 }
 
 .project-filter-button {
+  font-family: var(--title-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -92,6 +93,7 @@ address {
 }
 
 .list-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.15;
   text-transform: uppercase;
@@ -135,7 +137,8 @@ header {
   background-color: var(--dark-bg-color);
 }
 
-.dark-bg .logo {
+.dark-bg .logo,
+.dark-bg .footer-address {
   color: #ffffff;
 }
 
@@ -149,7 +152,8 @@ header {
   text-align: center;
 }
 
-.team-member {
+.team-member-title {
+  font-size: 16px;
   font-weight: 500;
   color: var(--title-color);
 }
@@ -170,4 +174,9 @@ header {
   font-size: 16px;
   line-height: 1.9;
   color: var(--main-text-color);
+}
+
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
 }
